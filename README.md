@@ -1,3 +1,5 @@
+Model Card:
+
 Base Model: facebook/bart-base
 
 Fine-tuned : using PEFT-LoRa
@@ -9,6 +11,7 @@ Task: Generating questions from context and answers
 Language: English
 
 Performance Metrics on Evaluation Set:
+
 Training Loss: 1.1.1958
 
 Evaluation Loss: 1.109059
