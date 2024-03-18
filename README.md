@@ -4,7 +4,9 @@ Base Model: facebook/bart-base
 
 Fine-tuned : using PEFT-LoRa
 
-Datasets : squad_v2, drop, mou3az/IT_QA-QG
+Datasets : squad_v2, drop, mou3az/IT_QA-QG 
+
+and the second version was traiend on : mou3az/Question-Answering-Generation-Choices (merged compilation of QuAIL, RACE, and Cosmos QA)
 
 Task: Generating questions from context and answers
 
