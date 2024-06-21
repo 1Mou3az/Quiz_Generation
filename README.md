@@ -8,7 +8,7 @@ Datasets : mou3az/Question-Answering-Generation-Choices (merged compilation of Q
 
 Task: Generating questions from context and answers
 
-Language: English
+Language: English / Arabic
 
 Performance Metrics on Evaluation Set:
 
