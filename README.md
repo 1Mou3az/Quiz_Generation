@@ -4,9 +4,7 @@ Base Model: facebook/bart-base
 
 Fine-tuned : using PEFT-LoRa
 
-Datasets : squad_v2, drop, mou3az/IT_QA-QG 
-
-and the second version was traiend on : mou3az/Question-Answering-Generation-Choices (merged compilation of QuAIL, RACE, and Cosmos QA)
+Datasets : squad_v2, drop, mou3az/IT_QA-QG, mou3az/Question-Answering-Generation-Choices (merged compilation of QuAIL, RACE, and Cosmos QA)
 
 Task: Generating questions from context and answers
 
@@ -23,3 +21,14 @@ Bertscore: 0.8123
 Rouge: 0.532144
 
 Fuzzywizzy similarity: 0.74209
+
+#############################################################################################################################
+
+API: 
+
+Url: https://mou3az-mcqa-quiz.hf.space
+Set Headers=> key: Content-Type, value: application/json
+Set body=> raw: json
+{
+    "context": " "
+}
