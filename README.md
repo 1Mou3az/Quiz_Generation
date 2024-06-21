@@ -1,10 +1,10 @@
 Model Card:
 
-Base Model: facebook/bart-base
+Base Model: facebook/bart-base / mistralai/Mistral-7B-Instruct-v0.2
 
-Fine-tuned : using PEFT-LoRa
+Fine-tuned : using PEFT-LoRa / full fine tunning
 
-Datasets : squad_v2, drop, mou3az/IT_QA-QG, mou3az/Question-Answering-Generation-Choices (merged compilation of QuAIL, RACE, and Cosmos QA)
+Datasets : squad_v2, drop, mou3az/IT_QA-QG / mou3az/Question-Answering-Generation-Choices (merged compilation of QuAIL, RACE, and Cosmos QA)
 
 Task: Generating questions from context and answers
 
@@ -22,13 +22,16 @@ Rouge: 0.532144
 
 Fuzzywizzy similarity: 0.74209
 
-#############################################################################################################################
+###################################################################################
 
 API: 
 
 Url: https://mou3az-mcqa-quiz.hf.space
+
 Set Headers=> key: Content-Type, value: application/json
+
 Set body=> raw: json
+
 {
     "context": " "
 }
