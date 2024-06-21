@@ -1,6 +1,6 @@
 Model Card:
 
-Base Model: facebook/bart-base / mistralai/Mistral-7B-Instruct-v0.2
+Base Model: facebook/bart-base & mistralai/Mistral-7B-Instruct-v0.2
 
 Fine-tuned : using PEFT-LoRa
 
@@ -8,7 +8,7 @@ Datasets : mou3az/Question-Answering-Generation-Choices (merged compilation of Q
 
 Task: Generating questions from context and answers
 
-Language: English / Arabic
+Language: English & Arabic
 
 Performance Metrics on Evaluation Set:
 
